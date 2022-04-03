@@ -10,8 +10,10 @@ class Program
     public static void Main(string[] args)
     {
         // This function accepts user input
-        string street_name;
-        int street_number;
+        int side1;
+        int side2;
+        int side3;
+        int height;
 
         Console.WriteLine("This program calculates the area and perimeter of a triangle.");
         Console.WriteLine("");
@@ -28,7 +30,7 @@ class Program
         Console.ReadLine();
         
         Console.WriteLine("");
-        Console.WriteLine("".");
+        Console.WriteLine(".");
 
         Console.WriteLine("\nDone.");
     }
