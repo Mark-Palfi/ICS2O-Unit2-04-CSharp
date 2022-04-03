@@ -10,27 +10,33 @@ class Program
     public static void Main(string[] args)
     {
         // This function accepts user input
-        int side1;
-        int side2;
-        int side3;
-        int height;
+        double side1;
+        double side2;
+        double side3;
+        double height;
+        double perimeter;
+        double area;
 
         Console.WriteLine("This program calculates the area and perimeter of a triangle.");
         Console.WriteLine("");
-
-        Console.Write("Enter side lengh 1: ");
-        side1 = Console.ReadLine();
-        Console.Write("Enter side lengh 2: ");
-        side2 = Console.ReadLine();
-        Console.Write("Enter side lengh 3: ");
-        side3 = Console.ReadLine();
-        Console.Write("Enter height: ");
-        height = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine(2 + 6 * 4);
-        Console.ReadLine();
         
-        Console.WriteLine("");
-        Console.WriteLine(".");
+        // input
+        Console.Write("Enter side lengh 1: ");
+        side1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter side lengh 2: ");
+        side2 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter side lengh 3: ");
+        side3 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter height: ");
+        height = Convert.ToDouble(Console.ReadLine());
+
+        // process
+        perimeter = side1 + side2 + side3;
+        area = height * side2 / 2;
+
+        // output
+        Console.WriteLine("Area = " + area + " cm²");
+        Console.WriteLine("Perimeter = " + perimeter + " cm");
 
         Console.WriteLine("\nDone.");
     }
