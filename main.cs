@@ -19,7 +19,7 @@ class Program
 
         Console.WriteLine("This program calculates the area and perimeter of a triangle.");
         Console.WriteLine("");
-        
+
         // input
         Console.Write("Enter side lenght 1: ");
         side1 = Convert.ToDouble(Console.ReadLine());
