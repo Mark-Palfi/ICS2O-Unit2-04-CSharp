@@ -21,11 +21,11 @@ class Program
         Console.WriteLine("");
         
         // input
-        Console.Write("Enter side lengh 1: ");
+        Console.Write("Enter side lenght 1: ");
         side1 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("Enter side lengh 2: ");
+        Console.Write("Enter side lenght 2: ");
         side2 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("Enter side lengh 3: ");
+        Console.Write("Enter side lenght 3: ");
         side3 = Convert.ToDouble(Console.ReadLine());
         Console.Write("Enter height: ");
         height = Convert.ToDouble(Console.ReadLine());
